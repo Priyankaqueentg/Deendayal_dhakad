@@ -167,9 +167,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
+    URL = "https://confident-perl-kamini-9e35dd2e.koyeb.app/".format(FQDN)
 else:
-    URL = "http://{}/".format(FQDN)
+    URL = "http://confident-perl-kamini-9e35dd2e.koyeb.app/".format(FQDN)
 
 # ============================
 # Reactions Configuration
